@@ -146,7 +146,7 @@ Our multi-stage training approach, combined with extensive data augmentation and
 For further details, please refer to our full documentation and code in the repository. Feel free to reach out if you have any questions or need additional information.
 
 - Prakrititz Borah: prakrititz.borah@iiitb.ac.in
-- Areen Patil: areen.patil@iiitb.ac.in
+- Areen Patil: areenjadhavpatiil@gmail.com
 - Aahana Patil: aahanapatil18@gmail.com
 
 
