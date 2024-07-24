@@ -1,0 +1,26 @@
+train: /content/drive/MyDrive/Vision/images/Train/Sunny # Absolute path for training images
+val: /content/drive/MyDrive/Vision/images/Val/Sunny
+
+nc: 15  # Number of classes in your dataset
+names: [
+    'car',
+    'bike',
+    'auto',
+    'rickshaw',
+    'cycle',
+    'bus',
+    'minitruck',
+    'truck',
+    'van',
+    'taxi',
+    'motorvan',
+    'toto',
+    'train',
+    'boat',
+    'cycle van'
+]
+
+# Augmentation parameters
+rect: False
+cache: ram
+balance: True
