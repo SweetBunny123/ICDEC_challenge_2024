@@ -1,6 +1,6 @@
 # ICDEC 2024 Vehicle Detection Challenge
 
-![ICDEC 2024 Logo](path_to_logo_image.png)
+![ICDEC 2024 Logo]([path_to_logo_image.png](https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-666743b42746f_screenshot_2024-06-07_014453.png?d=200x200))
 
 ## 🚗 Challenge Overview
 
