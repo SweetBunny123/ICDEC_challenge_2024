@@ -87,7 +87,7 @@ We conducted thorough hyperparameter tuning at each stage to maximize model perf
 Our model achieved the following performance metrics on the validation set:
 
 - mAP: 0.573
-- F1-Score: X.XX
+- F1-Score: 0.52
 
 ### Visualizations
 
@@ -114,11 +114,34 @@ Our model achieved the following performance metrics on the validation set:
 ![Training Loss](final_stage/results.png)
 *Fig 4. Results .*
 
+### How to Use
+
+To use the final model for validation, follow these steps:
+
+1. **Load the Model**:
+    ```python
+    model = torch.load('final_stage/weights/best.pt')
+    ```
+
+2. **Validate the Model**:
+    ```python
+    results = model.val(data='path/to/your/validation/dataset')
+    print(results)
+    ```
+
+Replace `'path/to/your/validation/dataset'` with the actual path to your validation dataset.
+
+This snippet loads the trained model from the specified path and evaluates its performance on the validation dataset.
+
+
+
 ## 📜 Conclusion
 
 Our multi-stage training approach, combined with extensive data augmentation and rigorous hyperparameter tuning, has enabled us to develop a robust vehicle detection model capable of performing well across various weather conditions. We believe this methodology can significantly contribute to advancements in the field of object detection under diverse environmental scenarios.
 
 ---
+
+
 
 For further details, please refer to our full documentation and code in the repository. Feel free to reach out if you have any questions or need additional information.
 
